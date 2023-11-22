@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+   position: absolute;
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     z-index: 2;
+     background-color: transparent;
+}
+
+.hamburger{
+    background-color: white !important;
+}
+
+nav{
+     
+padding: 20px;
+
+.menuHome{
+    color: #d53d4c !important;
+}
+    
+   
+    a{
+       
+        font-size: 14px;
+        font-weight: 600;
+        gap: 20px;
+
+    }
+}
+.menu:hover{
+    color: #d53d4c !important; 
+    transition: 0.7s;
+}
+section{
+    background-image: url("../../../img/slide-2.jpg");
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+ 
+}
+section h1{
+    color: white;
+    font-weight: 500px;
+    font-size: 50px;
+}
+section p{
+    color: white;
+}
+.btn{
+    border:#d53d4c solid 1px !important;
+background-color: transparent;
+width: 180px;
+height: 50px;
+color: white;
+}
+.btn:hover{
+    background-color: #d53d4c;
+    transition: 0.5s;
+}
+.mydiv{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+    
+}
